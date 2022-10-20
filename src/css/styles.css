@@ -74,15 +74,8 @@ nav {
 }
 
 li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+    
     list-style: none;
-}
-
-li:hover {
-    color: rgb(192, 52, 52);
 }
 
 .container-btns {
@@ -102,6 +95,20 @@ li:hover {
 span {
     width: 100px;
     height: 30px
+}
+
+.lista1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    width: 150px;
+}
+
+.lista1:hover {
+    color: rgb(192, 52, 52);
 }
 
 

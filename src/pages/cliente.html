@@ -12,26 +12,35 @@
 <body>
     <!-- Nav -->
     <nav>
-        <div class="logo">
-            <img class="letra" src="../../src/img/PastelArte-letra.png" alt="Pastel Arte logo solo en letra">
-            <img class="pastel" src="../../src/img/PastelArte-pastel.png" alt="">
+        <div class="logo"> 
+            <a href="../../index.html">
+                <img class="letra" src="../../src/img/PastelArte-letra.png" alt="Pastel Arte logo solo en letra">
+                <img class="pastel" src="../../src/img/PastelArte-pastel.png" alt="Pastel Arte logo solo el pastel">
+            </a>
         </div>
         <div class="container-btns">
             <ul class="lista">
-                <li>
-                    sabores <span class="material-symbols-outlined">
+                <li> 
+                    <a class="lista1" href="#sabores">
+                        sabores <span class="material-symbols-outlined">
                         sentiment_satisfied
                     </span>
+                    </a>
+                </li>
+                <li> 
+                    <a class="lista1" href="#adornos">
+                        Adornos <span class="material-symbols-outlined">
+                            storefront
+                        </span>
+                    </a>
+                    
                 </li>
                 <li>
-                    Adornos <span class="material-symbols-outlined">
-                        storefront
-                    </span>
-                </li>
-                <li>
-                    Pedir <span class="material-symbols-outlined">
-                        shopping_cart
-                    </span>
+                    <a class="lista1" href="#pedido">
+                        Pedir <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>        
                 </li>
             </ul>
         </div>
@@ -45,8 +54,10 @@
         <img class="fondo" src="../../src/img/fondo3.jpg" alt="Fondo de pastel">
     </div>
     <!-- Body Content -->
+    <!-- Sabores -->
     <div class="content-body">
-        <h2 class="center">Sabores</h2>
+        <h2 id="sabores" class="center">Sabores</h2>
+        <p class="center">Sabores que dan gusto, soprende a esa persona especial con un poco de sabor. Encuentra <br>gran variedad de pasteles con los mejores sabores del mundo. Que esperas, !Pide ahora!</p>
         <div class="content-cards">
             <!-- Card -->
             <div class="card">
@@ -84,6 +95,52 @@
         <div class="btn-body">
             <button class="btn"><span class="material-symbols-outlined">shopping_cart</span></button>
         </div>
+    </div>
+    <!-- Adornos -->
+    <div class="content-body">
+        <h2 id="adornos" class="center">Adornos</h2>
+        <p class="center">Los colores pastel en la decoración dan la sensación de un ambiente <br> suave y de completa tranquilidad. <br> Las diferentes tonalidades son poco estimulantes y le dan paz a la vista. Decora tu pastel a tu gusto.</p>
+        <div class="content-cards">
+            <!-- Card -->
+            <div class="card">
+                <img class="img-card" src="../img/adornos/1.png" alt="Ejemplo de sabor">
+            </div>
+
+            <div class="card">
+                <img class="img-card" src="../img/adornos/2.png" alt="Ejemplo de sabor">
+            </div>
+
+            <div class="card">
+                <img class="img-card" src="../img/adornos/3.png" alt="Ejemplo de sabor">
+            </div>
+
+            <div class="card">
+                <img class="img-card" src="../img/adornos/4.png" alt="Ejemplo de sabor">
+            </div>
+
+            <div class="card">
+                <img class="img-card" src="../img/adornos/5.png" alt="Ejemplo de sabor">
+            </div>
+
+            <div class="card">
+                <img class="img-card" src="../img/adornos/6.png" alt="Ejemplo de sabor">
+            </div>
+
+            <div class="card">
+                <img class="img-card" src="../img/adornos/7.png" alt="Ejemplo de sabor">
+            </div>
+
+            <div class="card">
+                <img class="img-card" src="../img/adornos/8.png" alt="Ejemplo de sabor">
+            </div>
+        </div>
+        <div class="btn-body">
+            <button class="btn"><span class="material-symbols-outlined">shopping_cart</span></button>
+        </div>
+    </div>
+    <!-- Pedodos -->
+    <div class="content-body">
+        <h2 id="pedido" class="center">Pedidos</h2>
     </div>
 </body>
 </html>
