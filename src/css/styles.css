@@ -19,6 +19,7 @@ body {
 }
 
 h2 {
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.56));
     color: rgb(192, 52, 52);
 }
 
@@ -138,6 +139,18 @@ span {
 }
 
 /* Content Body */
+.img-separador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.separador {
+    width: 500px;
+    height: 200px;
+}
 
 .content-cards {
     display: flex;
@@ -162,4 +175,79 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Pedidos */
+.divCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+form {
+    background: rgba(128, 128, 128, 0.2);
+    width: 700px;
+    padding: 20px;
+    border: 2px solid rgb(112, 112, 112);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.37);
+    border-radius: 16px;
+
+
+}
+
+.h3 {
+    text-align: center;
+    color: rgb(192, 52, 52);
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+ .label {
+     color: rgb(192, 52, 52);
+     font-weight: bold;
+ }
+ /* Contacto y dirección */
+.contact-body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info {
+    background: rgba(128, 128, 128, 0.2);
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(112, 112, 112);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.37);
+    padding: 20px;
+}
+
+.maps {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    filter: drop-shadow(16px 16px 20px rgba(0, 0, 0, 0.37));
+}
+ /* Footer */
+.div-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.github {
+    width: 200px;
+    height: 100px;
+    margin-left: 300px;
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.56));
+}
+
+.logo-footer {
+    margin-right: 350px;
 }
