@@ -7,8 +7,292 @@
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <title>Pastelero - PastelArte</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <h2>Bienvenido Pastelero!</h2>
+    <!-- Nav -->
+    <nav>
+        <div class="logo">
+            <a href="../../index.html">
+                <img class="letra" src="../../src/img/PastelArte-letra.png" alt="Pastel Arte logo solo en letra">
+                <img class="pastel" src="../../src/img/PastelArte-pastel.png" alt="Pastel Arte logo solo el pastel">
+            </a>
+        </div>
+        <div class="container-btns">
+            <ul class="lista">
+                <li>
+                    <a class="lista1" href="#sabores">
+                        sabores <span class="material-symbols-outlined">
+                            sentiment_satisfied
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="lista1" href="#adornos">
+                        Adornos <span class="material-symbols-outlined">
+                                storefront
+                            </span>
+                    </a>
+
+                </li>
+                <li>
+                    <a class="lista1" href="#pedido">
+                        Pedir <span class="material-symbols-outlined">
+                                shopping_cart
+                            </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+    <div class="div-img">
+        <div class="texto-div">
+            <h2 class="center">!Hola Pastelero!👋<br />Bienvenido a PastelArte</h2>
+            <p class="center">Aquí es donde podrás saber la cantidad de ingredientes <br> que te quedan para hacer un pastel 😉 también puedes visualizar la info de los pedidos🤩. <br> ¡Haz lo que te gusta! Disfruta tu pastel!.🥰</p>
+        </div>
+        <img class="fondo" src="../../src/img/fondo3.jpg" alt="Fondo de pastel">
+    </div>
+    <!-- Body Content -->
+    <!-- Sabores -->
+    <div class="content-body">
+        <h2 id="sabores" class="center">Sabores</h2>
+        <p class="center">Aquí podrás saber en tiempo real la información de la cantidad <br> de sabores que le quedan para hacer los pasteles.</p>
+        <div class="divCenter">
+            <table>
+                <thead>
+                <tr class="center">
+                    <th scope="col">Sabores</th>
+                    <th scope="col">Ingredientes</th>
+                    <th scope="col">Ingredientes sobrantes</th>
+                    <th scope="col">Ingredientes faltantes</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="center">
+                    <th scope="row">Vainilla</th>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>6</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Chocolate</th>
+                    <td>16</td>
+                    <td>6</td>
+                    <td>10</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Fresa</th>
+                    <td>11</td>
+                    <td>3</td>
+                    <td>8</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Limón</th>
+                    <td>9</td>
+                    <td>5</td>
+                    <td>4</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Merengue</th>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Chantilly</th>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Frutas</th>
+                    <td>15</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Fondant</th>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>3</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="img-separador">
+        <img class="separador" src="../img/linea.png" alt="separador">
+    </div>
+    <!-- Adornos -->
+    <div class="content-body">
+        <h2 id="adornos" class="center">Adornos</h2>
+        <p class="center">Aquí podrás saber en tiempo real la información de la cantidad <br> de adornos que le quedan para hacer los pasteles.</p>
+        <div class="divCenter">
+            <table>
+                <thead>
+                <tr class="center">
+                    <th scope="col">Adornos</th>
+                    <th scope="col">Ingredientes</th>
+                    <th scope="col">Ingredientes sobrantes</th>
+                    <th scope="col">Ingredientes faltantes</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="center">
+                    <th scope="row">Decoración 3D</th>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>6</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Decoración Geométrica</th>
+                    <td>16</td>
+                    <td>6</td>
+                    <td>10</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Decoración Floral</th>
+                    <td>11</td>
+                    <td>3</td>
+                    <td>8</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Decoración naked</th>
+                    <td>9</td>
+                    <td>5</td>
+                    <td>4</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Decoración Drip Cake</th>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Decoración Praliné</th>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Decoración Merengues</th>
+                    <td>15</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr class="center">
+                    <th scope="row">Decoración Especial</th>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>3</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="img-separador">
+        <img class="separador" src="../img/linea.png" alt="separador">
+    </div>
+    <!-- Pedidos -->
+    <h2 id="pedido" class="center">Pedido de ingredientes</h2>
+    <div class="divCenter">
+        <form>
+            <h3 class="center">Haz tu pedido aquí</h3>
+            <div class="option">
+                <label class="label">De que sabor quieres?</label>
+                <div class="option-input">
+                    <div>
+                        <input type="checkbox" id="vainilla" name="vainilla" value="vainilla"><label for="vainilla">Vainilla</label>
+                        <input class="short-input" type="number" id="vainillaNumber" placeholder="¿Cuántos?"><label for="vainillaNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chocolate" name="Chocolate" value="Chocolate"><label for="chocolate">Chocolate</label>
+                        <input class="short-input" type="number" id="chocolateNumber" placeholder="¿Cuántos?"><label for="chocolateNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="fresa" name="fresa" value="fresa"><label for="fresa">Fresa</label>
+                        <input class="short-input" type="number" id="fresaNumber" placeholder="¿Cuántos?"><label for="fresaNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="lemon" name="lemon" value="lemon"><label for="lemon">Limón</label>
+                        <input class="short-input" type="number" id="lemonNumber" placeholder="¿Cuántos?"><label for="lemonNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="merengue" name="merengue" value="merengue"><label for="merengue">Merengue</label>
+                        <input class="short-input" type="number" id="merengueNumber" placeholder="¿Cuántos?"><label for="merengueNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chantilly" name="chantilly" value="chantilly"><label for="chantilly">Chantilly</label>
+                        <input class="short-input" type="number" id="chantillyNumber" placeholder="¿Cuántos?"><label for="chantillyNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="frutas" name="frutas" value="frutas"><label for="frutas">Pastor Alemán</label>
+                        <input class="short-input" type="number" id="frutasNumber" placeholder="¿Cuántos?"><label for="frutasNumber"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="option">
+                <label class="label">¿Qué decoración prefieres que se añada al sabor de tu pastel?</label>
+                <div class="option-input">
+                    <div>
+                        <input type="checkbox" id="3d" name="decoracion 3d" value="decoracion 3d"><label for="3d">3D</label>
+                        <input class="short-input" type="number" id="decoration3dNumber" placeholder="¿Cuántos?"><label for="decoration3dNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="geometrica" name="geometrica" value="geometrica"><label for="geometrica">Geométrica</label>
+                        <input class="short-input" type="number" id="geometricaNumber" placeholder="¿Cuántos?"><label for="geometricaNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="floral" name="floral" value="floral"><label for="floral">Floral</label>
+                        <input class="short-input" type="number" id="floralNumber" placeholder="¿Cuántos?"><label for="floralNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="naked" name="naked" value="naked"><label for="naked">Naked</label>
+                        <input class="short-input" type="number" id="nakedNumber" placeholder="¿Cuántos?"><label for="nakedNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cripcake" name="cripcake" value="cripcake"><label for="cripcake">Crip Cake</label>
+                        <input class="short-input" type="number" id="cripcakeNumber" placeholder="¿Cuántos?"><label for="cripcakeNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="praline" name="praline" value="praline"><label for="praline">Praliné</label>
+                        <input class="short-input" type="number" id="pralineNumber" placeholder="¿Cuántos?"><label for="pralineNumber"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="merenguesDecoration" name="merengues" value="merengues"><label for="merenguesDecoration">Merengues</label>
+                        <input class="short-input" type="number" id="merNumber" placeholder="¿Cuántos?"><label for="merNumber"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="option">
+                <label class="label" for="userName">Nombre*:</label>
+                <input type="text" name="name" id="userName">
+            </div>
+            <div class="option">
+                <label class="label" for="teléfono">Teléfono*:</label>
+                <input type="text" name="teléfono" id="teléfono">
+            </div>
+            <div class="option">
+                <label class="label" for="email">Correo electrónico*:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="option">
+                <label class="label" for="direction">Dirección*:</label>
+                <input type="text" name="direction" id="direction">
+            </div>
+            <div class="btn-body">
+                <button class="btn" type="submit">Enviar Pedido</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <footer>
+        <p class="center">Made with love by Chae Mendoza</p>
+        <div class="div-footer">
+            <img class="github" src="../img/GitHub-logo.png" alt="enlace de github">
+            <img class="logo-footer" src="../img/footer.png" alt="Launch X LATAM of Microsoft">
+        </div>
+    </footer>
 </body>
 </html>

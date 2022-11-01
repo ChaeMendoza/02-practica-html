@@ -177,6 +177,20 @@ span {
     align-items: center;
 }
 
+table {
+    border: 2px solid rgb(112, 112, 112);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.37);
+    padding: 10px;
+}
+th {
+    background: rgba(128, 128, 128, 0.24);
+    border: 2px solid rgb(112, 112, 112);
+}
+
+td {
+    border: 2px solid rgb(112, 112, 112);
+}
+
 /* Pedidos */
 .divCenter {
     display: flex;
