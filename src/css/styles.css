@@ -265,3 +265,54 @@ form {
 .logo-footer {
     margin-right: 350px;
 }
+
+/* Responsive Desing */
+/* Mobile */
+
+@media screen and (max-width: 736px) {
+
+    /* Principal */
+    .logo-pastelarte {
+        width: 300px;
+        height: 300px;
+    }
+
+    .botones-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Cliente */
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .letra {
+        width: 100px;
+    }
+
+    .pastel {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lista {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* Header */
+    .div-img {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* Contact */
+    .contact-body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
